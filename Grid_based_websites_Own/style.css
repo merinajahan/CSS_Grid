@@ -1,0 +1,31 @@
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: aqua;
+    gap: 20px;
+}
+.grid-container > div{
+    
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+    border: 2px solid orangered;
+   
+}
+.Box1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    color:#c41c10;
+
+}
+.Box8{
+  grid-column-start: 1;
+  grid-column-end: 4;
+  color:blue;
+}
+.list{
+    list-style: none;
+    padding:-5px;
+   
+}
